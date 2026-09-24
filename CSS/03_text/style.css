@@ -1,0 +1,55 @@
+.text {
+  color: red;
+  font-size: 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+.end {
+  text-align: end;
+}
+
+/* 
+.start{
+    text-align: start;
+} */
+
+.para {
+  word-spacing: 50px;
+  line-height: 100px;
+  text-indent: 500px;
+}
+
+.letter {
+  letter-spacing: 20px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.list {
+  list-style: none;
+}
+
+.font {
+  font-style: italic;
+}
