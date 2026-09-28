@@ -1,0 +1,17 @@
+@font-face {
+  font-family: openSans;
+  src: url(./asset/open-sans/OpenSans-Light.ttf);
+}
+
+.inbuilt {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.external {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.custom {
+  font-family: openSans;
+}
