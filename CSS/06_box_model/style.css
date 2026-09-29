@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: burlywood;
+  height: 800px;
+  width: 800px;
+  /* margin: auto; */
+  border: 1px solid black;
+  /* padding: 100px; */
+  /* padding-top: 100px; */
+  /* padding-left: 50px; */
+  /* padding-right: 100px; */
+  /* padding-bottom: 100px; */
+
+  /* margin: 10px; */
+
+  /* margin: 10px 20px; */
+
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: teal;
+  border: 2px solid black;
+  /* margin: auto; */
+}

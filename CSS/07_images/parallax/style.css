@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 3px dotted gray;
+  /* height: 1800px; */
+  width: 100%;
+}
+
+.home,
+.footer {
+  border: 2px dashed red;
+  height: 500px;
+  text-align: center;
+  margin: 50px;
+}
+
+.background {
+  background-image: url("https://images.pexels.com/photos/1054164/pexels-photo-1054164.jpeg");
+  height: 1000px;
+  background-size: cover;
+  background-attachment: fixed;
+}

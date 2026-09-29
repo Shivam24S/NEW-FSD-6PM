@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nature {
+  height: 800px;
+  width: 800px;
+  object-fit: contain;
+}
+
+.background {
+  background-image: url("https://images.pexels.com/photos/34941149/pexels-photo-34941149.jpeg");
+  background-size: contain;
+  height: 500px;
+  background-repeat: no-repeat;
+}
