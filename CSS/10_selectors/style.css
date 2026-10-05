@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: aquamarine;
+  border: none;
+  margin: 50px;
+  color: white;
+}
+
+#unique {
+  color: steelblue;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.small {
+  background-color: tomato;
+}
+
+.bigger {
+  background-color: slateblue;
+}
+
+.heading::first-letter {
+  color: teal;
+  font-size: 100px;
+}
+
+.para::first-line {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: springgreen;
+}
+
+div > p {
+  color: sienna;
+  font-size: 50px;
+}
+
+span {
+  color: royalblue;
+}
+
+.heading-2,
+.heading-3 {
+  color: rebeccapurple;
+}
+
+ul > li:first-child {
+  color: seagreen;
+}
+
+ul > li:last-child {
+  font-style: italic;
+}
+
+ul > li:nth-child(3) {
+  color: springgreen;
+}
+
+.selection::selection {
+  color: orangered;
+}
