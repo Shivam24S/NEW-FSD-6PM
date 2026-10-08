@@ -10,7 +10,7 @@
   border: 2px solid black;
   margin: auto;
   margin-top: 10px;
-  /* position: relative; */
+  position: relative;
 }
 
 .main-container {
@@ -36,12 +36,14 @@
   bottom: 100px;
   left: 10px;
   right: 500px;
+
 }
 
 .relative {
   background-color: slategrey;
   position: relative;
   left: 100px;
+  z-index: 1;
 }
 
 .absolute {
@@ -49,6 +51,7 @@
   position: absolute;
   top: 50px;
   left: 100px;
+  /* z-index: 1; */
 }
 
 .fixed {

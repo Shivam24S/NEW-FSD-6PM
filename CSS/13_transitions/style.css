@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 50px auto;
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 50px auto;
+  text-align: center;
+  /* transition-duration: 1s; */
+  /* transition-delay: 2s; */
+  /* transition-property: border-radius,background-color; */
+  /* transition-timing-function: linear; */
+
+  transition: 2s all ease-in-out 1s;
+}
+
+.box:hover {
+  background-color: teal;
+  border-radius: 50%;
+}

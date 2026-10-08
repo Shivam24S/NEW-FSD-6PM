@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading::before {
+  content: "👋";
+}
+
+.btn {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: steelblue;
+  border: none;
+  font-size: 20px;
+  position: relative;
+}
+
+.btn::after {
+  content: "NEW";
+  background-color: red;
+  border-radius: 10px;
+  font-size: 15px;
+  top: -5px;
+  position: absolute;
+}
