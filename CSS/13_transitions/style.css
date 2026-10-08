@@ -22,7 +22,7 @@
   /* transition-property: border-radius,background-color; */
   /* transition-timing-function: linear; */
 
-  transition: 2s all ease-in-out 1s;
+  /* transition: 1s all ease-in-out; */
 }
 
 .box:hover {
