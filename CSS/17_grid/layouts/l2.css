@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 800px;
+  width: 800px;
+  margin: 100px auto;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+  border: 1px solid black;
+}
+
+#box-1 {
+  background-color: teal;
+  grid-column: 1/-1;
+}
+
+#box-2 {
+  background-color: chocolate;
+  grid-row: 2/5;
+}
+
+#box-3 {
+  background-color: aquamarine;
+  grid-column: 2/-1;
+}
+
+#box-4 {
+  background-color: blanchedalmond;
+}
+
+#box-5 {
+  background-color: turquoise;
+}
+
+#box-6 {
+  background-color: thistle;
+}
+
+#box-7 {
+  background-color: steelblue;
+  grid-column: 2/-1;
+}
+
+#box-8 {
+  background-color:royalblue;
+  grid-column: 1/-1;
+}

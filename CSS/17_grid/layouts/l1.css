@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 800px;
+  width: 800px;
+  border: 2px solid black;
+  margin: 20px auto;
+  display: grid;
+  grid-template-areas:
+    "hdr hdr hdr hdr"
+    "sbr main main main"
+    "sbr main main main"
+    "ftr ftr ftr ftr";
+}
+
+.box {
+  /* height:200px ;
+width: 200px; */
+  border: 3px dotted black;
+}
+
+#box-1 {
+  background: radial-gradient(thistle, white, pink);
+  grid-area: hdr;
+}
+#box-2 {
+  background: radial-gradient(red, orange, pink);
+  grid-area: sbr;
+}
+#box-3 {
+  background: radial-gradient(green, lime, yellow);
+  grid-area: main;
+}
+
+#box-4 {
+  background: radial-gradient(pink, red, orange);
+  grid-area: ftr;
+}
