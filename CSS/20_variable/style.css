@@ -1,0 +1,12 @@
+:root {
+  --primaryColor: #0de0b3;
+  --secondaryColor: #0d2de0;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.btn{
+    background-color: var(--secondaryColor);
+}

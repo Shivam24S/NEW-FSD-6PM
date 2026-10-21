@@ -25,6 +25,7 @@
 #box-2 {
   background-color: chocolate;
   grid-row: 2/5;
+  /* grid-column: 1/-1; */
 }
 
 #box-3 {
@@ -50,6 +51,6 @@
 }
 
 #box-8 {
-  background-color:royalblue;
+  background-color: royalblue;
   grid-column: 1/-1;
 }

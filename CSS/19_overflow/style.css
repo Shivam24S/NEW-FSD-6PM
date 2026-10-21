@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  margin: 100px auto;
+  /* overflow: scroll; */
+
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
