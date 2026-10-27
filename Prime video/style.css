@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00050d;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.nav-left,
+.nav-right {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  width: 100px;
+}
