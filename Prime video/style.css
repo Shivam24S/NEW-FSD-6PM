@@ -2,18 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
 body {
   background-color: #00050d;
   color: rgb(255, 255, 255);
   padding: 10px 15px;
+  transition: 1s all ease-in-out;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   padding: 10px 50px;
+  align-items: center;
 }
 
 .nav-left,
@@ -21,8 +42,68 @@ nav {
   list-style: none;
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  align-items: center;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: none;
 }
 
 .logo {
+  width: 110px;
+  margin-top: 7px;
+}
+
+ul > li > a {
+  font-weight: 600;
+}
+
+.sub,
+.grid {
+  width: 22px;
+  height: 22px;
+  filter: invert(1);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.language {
+  position: absolute;
+  column-count: 4;
+  right: -180px;
+  top: 40px;
+  backdrop-filter: blur(10px);
+  display: none;
+}
+
+.dropdown:hover .language {
+  display: block;
+}
+
+.user {
+  width: 30px;
+}
+
+.btn {
+  background-color: #177ed1;
+  color: white;
+  height: 45px;
   width: 100px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  font-weight: 600;
+}
+
+.btn:hover {
+  box-shadow: rgba(23, 182, 255, 0.4) 0px 30px 90px;
+  scale: 1.1;
 }

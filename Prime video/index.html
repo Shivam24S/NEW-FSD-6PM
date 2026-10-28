@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prime Video</title>
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
         integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
@@ -17,9 +17,9 @@
     <header>
         <nav>
             <ul class="nav-left">
-                <li><img class="logo" src="./assets/logo.png" alt="logo"></li>
+                <li><img class="logo" src="./assets/logo.png" alt="logo" /></li>
                 <li>
-                    <a href="">home</a>
+                    <a href="">Home</a>
                 </li>
                 <li>
                     <a href="">Free to me</a>
@@ -27,17 +27,65 @@
                 <li>
                     <a href="">Movies</a>
                 </li>
-                <li><a href="">Tv shows</a></li>
+                <li><a href="">TV shows</a></li>
                 <li><a href="">Live Tv</a></li>
-                <li><a href="">Subscription</a></li>
+                <li>
+                    <a href="">
+                        <img class="sub" src="./assets/svg/sub.svg" alt="Subscription" />
+                        Subscription</a>
+                </li>
             </ul>
 
             <ul class="nav-right">
-                <li><i class="fa-solid fa-magnifying-glass search-icon"></i></li>
-                <li>EN <i class="fa-solid fa-caret-down"></i></li>
-                <li>grid</li>
-                <li>user</li>
-                <li><button>Join Prime</button></li>
+                <li><a href="">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </a></i></li>
+                <li class="dropdown">
+                    <a href="">
+                        EN <i class="fa-solid fa-caret-down"></i>
+
+                        <div class="language">
+                            <a href="#">Bahasa Indonesia</a>
+                            <a href="#">Bahasa Melayu</a>
+                            <a href="#">Dansk</a>
+                            <a href="#">Deutsch</a>
+                            <a href="#">English</a>
+                            <a href="#">Español</a>
+                            <a href="#">Español Latinoamérica</a>
+                            <a href="#">Français</a>
+
+                            <a href="#">Italiano</a>
+                            <a href="#">Magyar</a>
+                            <a href="#">Nederlands</a>
+                            <a href="#">Norsk</a>
+                            <a href="#">Polski</a>
+                            <a href="#">Português (Brasil)</a>
+                            <a href="#">Português (Portugal)</a>
+                            <a href="#">Română</a>
+
+                            <a href="#">Suomi</a>
+                            <a href="#">Svenska</a>
+                            <a href="#">Türkçe</a>
+                            <a href="#">Wikang Filipino</a>
+                            <a href="#">Čeština</a>
+                            <a href="#">Ελληνικά</a>
+                            <a href="#">Русский</a>
+                            <a href="#">עברית</a>
+                            <a href="#">العربية</a>
+                            <a href="#">हिंदी</a>
+                            <a href="#">தமிழ்</a>
+                            <a href="#">తెలుగు</a>
+                            <a href="#">ไทย</a>
+                            <a href="#">한국어</a>
+                            <a href="#">日本語</a>
+                            <a href="#">简体中文</a>
+                            <a href="#">繁體中文</a>
+                        </div>
+                    </a>
+                </li>
+                <li><img class="grid" src="./assets/svg/grid.svg" alt="grid" /></li>
+                <li><img class="user" src="./assets/svg/user.svg" alt="user" /></li>
+                <li><button class="btn">Join Prime</button></li>
             </ul>
         </nav>
     </header>
